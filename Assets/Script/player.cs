@@ -1,5 +1,6 @@
 using UnityEngine; // Mengimpor namespace Unity untuk mengakses komponen-komponen Unity
 using UnityEngine.InputSystem; // Mengimpor namespace Input System baru dari Unity untuk menangani input
+using UnityEngine.UIElements; // Mengimpor namespace UI Toolkit untuk mengakses UIDocument dan elemen UI lainnya
 
 public class PlayerController : MonoBehaviour // Mendefinisikan kelas PlayerController yang mewarisi MonoBehaviour agar bisa digunakan sebagai komponen Unity
 {
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour // Mendefinisikan kelas PlayerCont
     Rigidbody2D rb; // Variabel untuk menyimpan referensi komponen Rigidbody2D yang ada pada objek ini
     private float Score = 0f;
     public float scoreMultiplier = 10f;
+    public UIDocument uiDocument;
 
     void Start() // Fungsi Start dipanggil sekali saat objek pertama kali diaktifkan
     {
