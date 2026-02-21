@@ -1618,6 +1618,7 @@ MonoBehaviour:
   thrustForce: 3
   maxSpeed: 10
   scoreMultiplier: 10
+  uiDocument: {fileID: 1519476803}
 --- !u!1 &1857867685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1215443268887976786, guid: 9bad1916ddc6a9b80a005f4d1371949c, type: 3}
