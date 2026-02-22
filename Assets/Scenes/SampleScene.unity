@@ -1485,7 +1485,7 @@ Transform:
   m_GameObject: {fileID: 1835245266}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.64, y: -1.5, z: 0.01282876}
+  m_LocalPosition: {x: 0.51, y: -3.76, z: 0.01282876}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1535,11 +1535,11 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1869895220}
     m_ColliderPaths:
-    - - X: -1664040
+    - - X: -1664042
         Y: -10259621
-      - X: -4164040
+      - X: -4164042
         Y: -14589748
-      - X: 835959
+      - X: 835957
         Y: -14589748
   - m_Collider: {fileID: 1036566758}
     m_ColliderPaths:
@@ -1553,23 +1553,23 @@ CompositeCollider2D:
         Y: -15896416
   - m_Collider: {fileID: 558611655}
     m_ColliderPaths:
-    - - X: -1664040
+    - - X: -1664042
         Y: -5072827
-      - X: -6664040
+      - X: -6664042
         Y: -13733082
-      - X: 3335960
+      - X: 3335957
         Y: -13733082
   m_CompositePaths:
     m_Paths:
     - - {x: 0.1885665, y: -1.5896416}
       - {x: 0.1885665, y: -1.4396415}
-      - {x: 0.0724261, y: -1.4396281}
-      - {x: 0.034194, y: -1.3733082}
-      - {x: 0.3335671, y: -1.3732582}
-      - {x: -0.1664329, y: -0.5073326}
-      - {x: -0.6663463, y: -1.3733082}
-      - {x: -0.3669732, y: -1.3733582}
-      - {x: -0.4052574, y: -1.4396415}
+      - {x: 0.0724259, y: -1.4396281}
+      - {x: 0.0341938, y: -1.3733082}
+      - {x: 0.3335668, y: -1.3732582}
+      - {x: -0.1664331, y: -0.5073326}
+      - {x: -0.6663465, y: -1.3733082}
+      - {x: -0.3669734, y: -1.3733582}
+      - {x: -0.4052576, y: -1.4396415}
       - {x: -0.5114041, y: -1.4396708}
       - {x: -0.51137483, y: -1.5896416}
   m_VertexDistance: 0.0005
@@ -1615,10 +1615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f4975c48d1282087aa481babf74aa83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustForce: 3
-  maxSpeed: 10
   scoreMultiplier: 10
+  thrustForce: 3
   uiDocument: {fileID: 1519476803}
+  explosionEffect: {fileID: 5958083212827238058, guid: 2862db1b0fc2d900287b3aaf9a08bd16, type: 3}
 --- !u!1 &1857867685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1215443268887976786, guid: 9bad1916ddc6a9b80a005f4d1371949c, type: 3}
